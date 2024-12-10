@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimedServiceApp", "TimedServiceApp\TimedServiceApp.csproj", "{489AF3EB-616F-4672-B81A-C0A30D0FDE4C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimedServiceTests", "TimedServiceTests\TimedServiceTests.csproj", "{DBB8EE53-E4F7-4085-86AF-74C237823DFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{82327A59-C959-407A-9467-39F723C5E284}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+		run_CodeCoverage.bat = run_CodeCoverage.bat
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{489AF3EB-616F-4672-B81A-C0A30D0FDE4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{489AF3EB-616F-4672-B81A-C0A30D0FDE4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{489AF3EB-616F-4672-B81A-C0A30D0FDE4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{489AF3EB-616F-4672-B81A-C0A30D0FDE4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB8EE53-E4F7-4085-86AF-74C237823DFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB8EE53-E4F7-4085-86AF-74C237823DFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB8EE53-E4F7-4085-86AF-74C237823DFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB8EE53-E4F7-4085-86AF-74C237823DFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97D74063-FCD2-4D97-A1BF-CBC3A4B44BB4}
+	EndGlobalSection
+EndGlobal
